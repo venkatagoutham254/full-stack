@@ -1,0 +1,52 @@
+.main-layout {
+    display: flex;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #003366;
+    color: #fff;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #004080;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #0059b3;
+  }
+  
+  .content {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .logo-top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;  /* Adjust the size as needed */
+    height: auto;
+  }
+  
